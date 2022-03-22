@@ -1,35 +1,43 @@
-div {
-    margin: 5px;
-    padding: 5px;
-    /* box-sizing: border-box; */
+/* RESET CSSS */
+* {
+    margin: 0;
+    padding: 0;
 }
+
 .container{
     width: 950px;
     background-color: silver;
     margin: 0px auto;
+    padding: 19px;
 }
+
 .top-nav {
     height: 150px;
     background-color: green;
+    margin-bottom: 19px;
 }
 .side-nav {
     height: 300px;
     width: 200px;
     background-color: blue;
     display: inline-block;
-    vertical-align: top;
 }
 .main {
     height: 400px;
     width: 700px;
     background-color: red;
     display: inline-block;
+    vertical-align: top;
+    margin-left: 19px;
+    padding: 13px;
 }
 .sub-content {
     height: 200px;
     width: 210px;
     background-color: yellow;
     display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 18px;
 }
 #advertisement {
     height: 120px;
